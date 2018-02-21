@@ -8,13 +8,15 @@ Experimenting with how to build a modern CI/CD pipeline
 
 Running Local Tests
 -------------------
-To use the ‘pytest’ framework in the Python Virtual Environment (‘virtualenv’) after creating the 'venv' directory type in 'Git Bash':
+To use the ‘pytest’ framework in the Python Virtual Environment (‘virtualenv’), after creating the 'venv' directory, type in 'Git Bash':
 ```
 [cicd-buzz] $ source venv/Scripts/activate
 (venv) [cicd-buzz] $ python -m pytest -v tests/test_generator.py
+(venv) [cicd-buzz] $ deactivate
+[cicd-buzz] $ 
 ```
 
-For more details see (note the above instructions and the test code in 'test_generator.py' were modified):
-	How to build a modern CI/CD pipeline Using free and hosted services
+For more details see (note that the above instructions and the test code in 'test_generator.py' were modified):
+[1]	How to build a modern CI/CD pipeline Using free and hosted services
 	https://medium.com/bettercode/how-to-build-a-modern-ci-cd-pipeline-5faa01891a5b
 
