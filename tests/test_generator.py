@@ -4,7 +4,7 @@
 # It was modified by Uri to better match the recommended way of using 'unittest' framework as follows:
 #   1. Added a class wrapping all the method
 #   2. The class is derived from 'unittest.TestCase' class
-#   3. Asserts were changed
+#   3. Asserts were changed (originally, only plain assert statements of 'pytest' framework were used)
 
 import unittest
 from buzz import generator
